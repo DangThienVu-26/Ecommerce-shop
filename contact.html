@@ -1,22 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cẩm Ly's Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact</title>
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="./img/logo.png" class="logo" alt="" /></a>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="shop.html">Shop</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li>
+            <a id="lg-bag" href="cart.html"
+              ><i class="fa-solid fa-cart-shopping cart"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
 
-    <body>
+    <section id="page-header" class="contact-header">
+      <h2>#Read more</h2>
+      <p>More details and fun story</p>
+    </section>
 
 
-        <script src="script.js"></script>
+    <section id="newsletters" class="section-m1 section-p1">
+      <div class="news-text">
+        <h4>Sign Up For NewSletters</h4>
+        <p>
+          Get e-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
 
-    </body>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
 
+    <footer class="section-p1">
+      <div class="col col-1">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong>562 Wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone: </strong>+84934 922 475</p>
+        <p><strong>Hours: </strong>10:00 - 18:00, Mon - Fri</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About us</h4>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From Appstore and Gooogle Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>2023, TechTech Shop's Website Devloper - Dang Thien Vu</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
